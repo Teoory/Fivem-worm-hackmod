@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hacker Menu</title>
+</head>
+<body>
+    <div id="menu" style="display: none;">
+        <button onclick="selectOption('mors')">Mors</button>
+        <button onclick="selectOption('lights_off')">Lights Off</button>
+        <button onclick="selectOption('lights_on')">Lights On</button>
+        <button onclick="closeMenu()">Close</button>
+    </div>
+    <div id="morsInput" style="display: none;">
+        <input type="text" id="morsCode" placeholder="Enter Mors Code">
+        <button onclick="submitMorsCode()">Submit</button>
+        <button onclick="closeMenu()">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
