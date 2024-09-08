@@ -5,7 +5,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Teory'
-description 'Modun acıklaması. Bu mod sayesinde sohbete "/worm" yazarak mod menüsünü açabilir ve fonksiyonları kullanabilirsiniz'
+description 'Modun acıklaması. Bu mod sayesinde konsola "worm" yazarak mod menüsünü açabilir ve fonksiyonları kullanabilirsiniz'
 -- Semantic versonlama da kullanılır. 1.2.3 gibi 1 major, 2 minor, 3 patch için kullanılır
 version '1.0.0'
 
