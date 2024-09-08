@@ -57,12 +57,12 @@ AddEventHandler('showHackerMenu', function()                -- 'showHackerMenu' 
     SetNuiFocus(true, true)                                 -- NUI odaklanma durumunu ayarlar ve fare ve klavye etkileşimi sağlar
 end)                                                        -- Fonksiyonu sonlandırır
 
-RegisterNUICallback('closeMenu', function(data, cb)         -- closeMenu geri çağrısını dinler ve işler function dan sonra () koyma nedenimiz geri çağrıdan gelen veriyi almak için 
+RegisterNUICallback('closeMenu', function(data, cb)         -- closeMenu callbackini dinler ve işler function dan sonra () koyma nedenimiz geri çağrıdan gelen veriyi almak için 
     SetNuiFocus(false, false)                               -- NUI odaklanma durumunu ayarlar ve odaklanmaz (fare ve klavye etkileşimi sağlamaz)
     cb('ok')                                                -- Callback fonksiyonunu çalıştırır
 end)
 
-RegisterNUICallback('selectOption', function(data, cb)      -- selectOption geri çağrısını dinler ve işler function dan sonra () koymazsak geri çağrıdan gelen veriyi alamayız
+RegisterNUICallback('selectOption', function(data, cb)      -- selectOption callbackini dinler ve işler function dan sonra () koymazsak geri çağrıdan gelen veriyi alamayız
     if data.action == 'mors' then                           -- Eğer data.action 'mors' ise | data.action: Callbackdan gelen veri 'mors' stringine eşit ise SendNUIMessage fonksiyonunu çalıştırır
         SendNUIMessage({
             action = 'showMorsInput'
