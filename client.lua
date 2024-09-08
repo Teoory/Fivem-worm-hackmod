@@ -1,5 +1,5 @@
 local lightsOff = false 
--- Başlatıldığında lightsOff değişkenini false yapar.
+-- Başlatıldığında lightsOff değişkenini oluşturulur ve değerini false yapar.
 
 -- "=" atama yapar |  "==" karşılaştırma yapar |  "===" karşılaştırma ve tür kontrolü yapar  |  "!=" eşit değilse |  "!==" tür kontrolü yapar
 -- "&&" ve anlamına gelir |  "||" veya anlamına gelir
