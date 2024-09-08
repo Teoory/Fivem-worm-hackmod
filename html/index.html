@@ -1,23 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Hacker Menu</title>
+<!DOCTYPE html>                                                                     <!-- HTML Versiyonu -->
+<html lang="en">                                                                    <!-- Dil -->
+<head>                                                                              <!-- Sayfa Bilgileri -->
+    <meta charset="UTF-8">                                                          <!-- html sayfasındaki karakterlerin ne olduğunu anlaması için -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">          <!-- Cihazın ekran boyutunu ayarlamak için -->
+    <link rel="stylesheet" href="style.css">                                        <!-- CSS dosyası | Sitil eklemek için kullanılır -->
+    <title>Hacker Menu</title>                                                      <!-- Sayfa Başlığı -->
 </head>
-<body>
-    <div id="menu" style="display: none;">
-        <button onclick="selectOption('mors')">Mors</button>
-        <button onclick="selectOption('lights_off')">Lights Off</button>
-        <button onclick="selectOption('lights_on')">Lights On</button>
-        <button onclick="closeMenu()">Close</button>
-    </div>
-    <div id="morsInput" style="display: none;">
-        <input type="text" id="morsCode" placeholder="Enter Mors Code">
-        <button onclick="submitMorsCode()">Submit</button>
-        <button onclick="closeMenu()">Close</button>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+
+<body>                                                                              <!-- html Sayfa görünümü -->
+    <div id="menu" style="display: none;">                                          <!-- Sayfada yeni bir bölüm açar, id olarak menu ataması yapar ve görünmemesini sağlar -->
+        <button onclick="selectOption('mors')">Mors</button>                        <!-- Butonlar | onclick js deki selectOption fonksiyonuna 'mors' parametresi gönderir.  -->
+        <button onclick="selectOption('lights_off')">Lights Off</button>            <!-- Butonlar | onclick js deki selectOption fonksiyonuna 'lights_off' parametresi gönderir.  -->
+        <button onclick="selectOption('lights_on')">Lights On</button>              <!-- Butonlar | onclick js deki selectOption fonksiyonuna 'lights_on' parametresi gönderir.  -->
+        <button onclick="closeMenu()">Close</button>                                <!-- Butonlar | onclick js deki closeMenu fonksiyonunu çalıştırır.  -->
+    </div>                                                                          <!-- idsi menu olan bölümü kapatır --> 
+
+    <div id="morsInput" style="display: none;">                                     <!-- Sayfada yeni bir bölüm açar, id olarak morsInput ataması yapar ve görünmemesini sağlar -->
+        <input type="text" id="morsCode" placeholder="Enter Mors Code">             <!-- Input | Mors kodunu girmek için bir alan oluşturur -->
+        <button onclick="submitMorsCode()">Submit</button>                          <!-- Butonlar | onclick js deki submitMorsCode fonksiyonunu çalıştırır.  -->
+        <button onclick="closeMenu()">Close</button>                                <!-- Butonlar | onclick js deki closeMenu fonksiyonunu çalıştırır.  -->
+    </div>                                                                          <!-- idsi morsInput olan bölümü kapatır -->
+
+    <script src="script.js"></script>                                               <!-- JS dosyası | fonksiyonları çağırmak için kullanılır -->
+</body>                                                                             <!-- html Sayfa görünümü Kapatılır -->
+
+</html>                                                                             <!-- html Kapatılır -->

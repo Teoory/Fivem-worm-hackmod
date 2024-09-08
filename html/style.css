@@ -1,6 +1,10 @@
+/* body elementinde değiştirilmek istenen görünüm kodları örnek olarak color: red; yazarsak body elmanındaki tüm yazıların rengi kırmızı olur. */
 body {
+    /* body elementindeki her ögenin fontunu değiştirir. */
     font-family: Arial, sans-serif;
 }
+
+/* idsi menu ve morsUnput olan elemanların görünüm kodları */
 #menu, #morsInput {
     position: absolute;
     top: 50%;
@@ -12,12 +16,16 @@ body {
     color: white;
     text-align: center;
 }
+
+/* bütün button elamanlarının görünümü değiştirmek için kullanılan kodlar */
 button {
     display: block;
     margin: 10px auto;
     padding: 10px 20px;
     font-size: 16px;
 }
+
+/* bütün input elamanlarının görünümü değiştirmek için kullanılan kodlar */
 input {
     display: block;
     margin: 10px auto;
