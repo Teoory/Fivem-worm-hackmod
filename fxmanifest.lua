@@ -17,7 +17,7 @@ client_script 'client.lua'
 --              'client.lua',
 --              'client2.lua'
 --          }
--- gibi kullanılır {} dizi olduğunu belirtmek için kullanılır
+-- gibi kullanılır {} dizi(birden fazla dosya) olduğunu belirtmek için kullanılır 
 
 
 -- Başka bir mod ile birlikte çalışması gerekiyorsa bağımlılıklarını belirtir örnek olarak bir ürün satış modu yazıyorsak ekonomi moduna bağımlılık gerekir
