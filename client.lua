@@ -25,7 +25,7 @@ local lightsOff = false
 
 -- SetNuiFocus: NUI odaklanma durumunu ayarlar (true: odaklanır, false: odaklanmaz) (true, true: fare ve klavye etkileşimi sağlar)
 
--- RegisterNUICallback: NUI geri çağrılarını dinler ve işler (cb: geri çağrı fonksiyonu) (data: geri çağrıdan gelen veri)
+-- RegisterNUICallback: NUI geri çağrılarını dinler ve işler (cb: callback fonksiyonu) (data: callbackden gelen veri)
 
 
 
